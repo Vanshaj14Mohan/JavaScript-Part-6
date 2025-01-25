@@ -1,4 +1,5 @@
 //This keyword refers to an object that is executing the current piece of code.
+//Hint -> Whichever object is executing any method that becomes our this.
 const student = {
     name: "John", 
     age: 22,
