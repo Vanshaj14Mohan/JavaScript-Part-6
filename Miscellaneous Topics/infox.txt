@@ -1,0 +1,11 @@
+A note about arrow functions -> They are not standalone functions, here we assign the value of a function to a variable.
+We can use arrow functions in high orders functions as a parameter passing or we use it as callbacks
+A callback is simply a function that is passed in another function as an argument or a parameter.
+
+syntax:
+const func = (arg1, arg2..) =>{ function definition }
+
+eg 
+const sum = (a,b) =>{
+    console.log(a,b);
+}
