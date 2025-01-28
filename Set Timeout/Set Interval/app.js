@@ -14,7 +14,7 @@ let id2 = setInterval( () =>{
     console.log("Test for SetInterval2");
 }, 2000)// will repeat printing it after every 2s until & unless it is not stopped.
 
-console.log(id2);
+console.log(id2); 
 
 clearInterval(id); //stoping it from repeated execution by passing their id in.
 clearInterval(id2); //same logic for id2.
