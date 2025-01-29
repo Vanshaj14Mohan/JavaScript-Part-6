@@ -6,3 +6,9 @@ ie -> this = student
 
 But for arrow function 
 we call it same as above but this value for Arrow function is parent's scope
+
+Easy steps to remember
+1-> For normal functions this refers to the object that calls it.
+& for 
+2-> And for Arrow FUnctions this refers to the object that made a call to the parent (A Lexical Scope)
+
