@@ -1,0 +1,4 @@
+This with Arrow Function 
+func 
+obj.func, -> student.getName()
+so for normal function this is their object only
