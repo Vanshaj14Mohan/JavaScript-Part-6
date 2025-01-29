@@ -2,3 +2,7 @@ This with Arrow Function
 func 
 obj.func, -> student.getName()
 so for normal function this is their object only
+ie -> this = student
+
+But for arrow function 
+we call it same as above but this value for Arrow function is parent's scope
