@@ -9,6 +9,6 @@ let id = setInterval(() =>{
 }, 2000);
 
 setTimeout(()=>{
-    clearInterval(id);
-    console.log("Interval ran clearly")
+    clearInterval(id); //to exit the case
+    console.log("Interval ran clearly") //checking if the interval is cleared
 },10000);
