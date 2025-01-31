@@ -5,19 +5,19 @@ const isEven = (num) =>{
 }
 
 //2. Verify the output.
-let length = 4;
-function callback(){
-    console.log(this.length);
-}
+// let length = 4;
+// function callback(){
+//     console.log(this.length);
+// }
 
-const object ={
-    length: 5,
-    method(callback){
-        callback();
-    },
-}
+// const object ={
+//     length: 5,
+//     method(callback){
+//         callback();
+//     },
+// }
 
-object.method(callback, 1, 2);
+// object.method(callback, 1, 2);
 
 //3. Write an arrow function named arrayAverage that accepts an array of numbers and returns the average of those numbers.
 const arrayAverage = (arr) =>{
